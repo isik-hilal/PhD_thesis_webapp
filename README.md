@@ -1,6 +1,6 @@
 # Benthic Foraminifera of the Sea of Marmara: Distribution, Ecology, and Significance as Biotic Indices
 
-This interactive web application, written by **Hilal Işık**, is based on the PhD thesis of **Gamze TANIK** from **Middle East Technical University (METU)**. It provides an engaging way to explore the thesis findings through visualizations and interactive maps. 🌊📊
+This interactive web application, written by **Hilal Işık**, is based on a part of PhD thesis of **Gamze TANIK** from **Middle East Technical University (METU)**. It provides an engaging way to explore the thesis findings through visualizations and interactive maps. 🌊📊
 
 ---
 
@@ -8,14 +8,14 @@ This interactive web application, written by **Hilal Işık**, is based on the P
 
 This Streamlit web app is designed to:
 
-- Showcase the **distribution and ecology of benthic foraminifera** in the Sea of Marmara.
-- Highlight their **significance as biotic indices**.
+- Showcase the **distribution of benthic foraminifera** in the Sea of Marmara.
+- Highlight their **changes in assemblage composition in the vertical dimension**.
 - Provide a **user-friendly interface** for exploring and visualizing data.
 
 The app is structured into several sections, each offering unique insights and tools:
 
 - **Home** 🏠: Introduction to the project.
-- **Maps** 🗺️: Interactive maps of the Sea of Marmara's foraminifera clusters.
+- **Maps** 🗺️: Interactive maps of the Sea of Marmara's quantitative benthic foraminifera studies.
 - **Single View** 🔍: Detailed analysis for specific sites.
 - **Similarity of Sites** 🤝: Visualizations of site similarities based on cluster analysis.
 - **References** 📚: Key studies and sources.
@@ -47,9 +47,8 @@ The project is modular, with different sections implemented in separate Python f
 
 ## 🚀 **Features**
 
-- **Interactive Maps** 🗺️: Explore clusters dynamically with color-coded markers.
-- **Detailed Views** 🔬: Dive deep into specific sites and their ecological data.
-- **Custom Visualizations** 🎨: Gain insights into the relationships and patterns among sites.
+- **Interactive Maps** 🗺️: Explore analyzed stations and clusters dynamically with color-coded markers.
+- **Detailed Views** 🔬: Dive deep into specific sites and their benthic foraminifera relative abundance data.
 - **User-Friendly Navigation** 🖱️: Easily switch between sections.
 
 ---
@@ -80,18 +79,18 @@ The project is modular, with different sections implemented in separate Python f
 
 ## 🌏 **Exploring the App**
 
-- **Home** 🏠: Start your journey here to understand the purpose and scope of the thesis.
-- **Maps** 🗺️: Use the map to explore the spatial distribution of foraminifera clusters. Customize cluster selections for tailored views.
+- **Home** 🏠: Start your journey here to understand the purpose and scope of the thesis and get to know the thesis author.
+- **Maps** 🗺️: Use the map to explore the spatial distribution of analyzed foraminifera studies.
 - **Single View** 🔍: Analyze detailed site data with an intuitive interface.
-- **Similarity of Sites** 🤝: Discover connections and patterns between various sites.
-- **References** 📚: A comprehensive list of all sources used in the research.
+- **Similarity of Sites** 🤝: Discover connections and patterns between various clusters.
+- **References** 📚: See the comprehensive list of all sources used in the research and download the supplamentary material.
 
 ---
 
 ## 💡 **Future Enhancements**
 
 - Incorporate additional visualizations.
-- Extend to include clustering features.
+- Extend to include further clustering analysis applications.
 
 ---
 
