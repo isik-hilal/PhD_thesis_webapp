@@ -103,8 +103,6 @@ PhD Candidate, Middle East Technical University (METU)
 **Hilal Işık**  
 Developer of the Web Application
 
-For any inquiries, please contact **[https://www.linkedin.com/in/hilal-isik/](linkedin:https://www.linkedin.com/in/hilal-isik/)**.
-
 ---
 
 Thank you for exploring! 🌟
