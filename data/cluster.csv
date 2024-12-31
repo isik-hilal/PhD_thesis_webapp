@@ -1,0 +1,145 @@
+Code,Reference,Type,Station,Depth_in_core,Latitude,Longitude,Water_depth,TOC,L/D/U,Size_fraction,S,N,Cluster,subcluster,Cluster_real,Details
+SoM_1,Fontanier et al. 2018,C,MRS-DV01-PC-04,0.5,40.86166667,28.58333333,326,2.35,L,63,11,375,1,,C1,B. vadescense Live
+SoM_1,Fontanier et al. 2018,C,MRS-DV05-PC-06,0.5,40.71666667,29.11166667,1237,2.86,L,63,3,29,1,,C1,B. vadescense Live
+SoM_2,Phipps et al. 2010,G,1,0.5,40.36295577,27.38841279,15,1.09,D,125,35,436,2,,C2,Pollution
+SoM_2,Phipps et al. 2010,G,2,0.5,40.37723347,27.390635,18,-,D,125,55,909,14,,C14,Ammonia - Elphidium 1
+SoM_2,Phipps et al. 2010,G,3,0.5,40.38695564,27.3922461,25,1.2,D,125,54,945,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,4,0.5,40.40328888,27.39413498,30,-,D,125,65,380,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,5,0.5,40.41506659,27.39463498,35,0.71,D,125,53,380,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,6,0.5,40.42517765,27.39480164,40,-,D,125,73,1062,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,7,0.5,40.43967756,27.39641275,44,1.25,D,125,67,603,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,8,0.5,40.45623303,27.39530164,50,-,D,125,73,535,15,,C15,Porosononion - C. laevigata
+SoM_2,Phipps et al. 2010,G,9,0.5,40.4782329,27.39530164,55,1.15,D,125,69,703,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,10,0.5,40.53245482,27.3959683,60,-,D,125,66,514,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,11,0.5,40.55889912,27.39941273,65,1.15,D,125,70,712,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,12,0.5,40.5745657,27.4044127,70,-,D,125,66,563,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,13,0.5,40.58378787,27.410746,75,1.26,D,125,65,703,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,14,0.5,40.59523225,27.41852373,80,-,D,125,95,1575,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,15,0.5,40.6074544,27.42185705,85,0.97,D,125,89,1394,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,16,0.5,40.61656546,27.42507925,90,-,D,125,64,747,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,17,0.5,40.62478764,27.42585702,105,1.11,D,125,84,1163,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,18,0.5,40.63534314,27.42841257,110,-,D,125,58,878,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,19,0.5,40.64600974,27.42974589,120,1.13,D,125,42,347,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,91,0.5,40.65756523,27.42974589,130,-,D,125,58,610,13,c,C13c,C. laevigata - B. vadescens
+SoM_2,Phipps et al. 2010,G,92,0.5,40.66789851,27.42896812,140,1.1,D,125,49,478,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,93,0.5,40.67589846,27.42685702,150,-,D,125,37,316,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,94,0.5,40.68934283,27.42963478,175,0.61,D,125,55,575,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,95,0.5,40.69345392,27.44185694,200,-,D,125,68,763,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,96,0.5,40.69700946,27.45785685,225,1.01,D,125,67,988,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,97,0.5,40.69700946,27.45785685,250,-,D,125,58,629,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,98,0.5,40.70634274,27.44919023,275,0.26,D,125,57,255,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,99,0.5,40.7006761,27.45174577,300,0.51,D,125,51,314,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,100,0.5,40.7006761,27.45174577,325,0.52,D,125,49,248,12,a,C12a,B. spathulata - B. costata
+SoM_2,Phipps et al. 2010,G,101,0.5,40.69945389,27.4446347,350,0.61,D,125,73,384,12,a,C12a,B. spathulata - B. costata
+SoM_3,Kirci-Elmas 2006,C,DM22,2,40.81035,27.97285,1203,1.04,U,125,19,32,9,,C9,Bulimina costata
+SoM_3,Kirci-Elmas 2006,C,32MC,2,40.76016667,27.749,711,0.9,U,125,16,68,8,,C8,Bulimina aculeata
+SoM_3,Kirci-Elmas 2006,C,KL89,2,40.75666667,28.77266667,1156,1.39,U,125,20,113,7,,C7,Bolivina dilatata
+SoM_3,Kirci-Elmas 2006,C,KL97,10,40.8535,28.7755,1094,-,U,125,21,84,7,,C7,Bolivina dilatata
+SoM_6,Kirci-Elmas 2018,G,T2,2,40.97416667,27.77266667,38,-,U,125,91,2829,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,T7,2,40.97166667,27.651,27,-,U,125,76,2680,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,T8,2,40.954,27.52433333,32,-,U,125,105,2570,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,T16,2,40.94233333,27.854,65,-,U,125,70,2689,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,T20,2,40.97466667,27.73833333,35,-,U,125,85,2747,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,T21,2,40.97466667,27.704,23,-,U,125,76,1947,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,S23,2,40.98433333,28.006,43,-,U,125,42,3570,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,T30,2,40.88783333,27.48333333,62,-,U,125,45,991,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S1,2,41.054,28.26683333,15,-,U,125,76,1548,4,,C4,Elphidium - A. mamilla
+SoM_6,Kirci-Elmas 2018,G,S4,2,41.002,28.25,57,-,U,125,90,9753,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S5,2,41.04116667,28.24283333,53,-,U,125,51,2868,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S8,2,41.0335,28.16666667,50,-,U,125,58,4730,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S9,2,41.00666667,28.17266667,55,-,U,125,80,6583,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S13,2,40.98733333,28.12266667,55,-,U,125,87,6609,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S14,2,41.0225,28.12216667,31,-,U,125,63,2643,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,S15,2,41.04233333,28.12166667,20,-,U,125,71,1361,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,S17,2,41.008,28.05716667,32,-,U,125,77,974,5,,C5,Asterigerinata mamilla
+SoM_6,Kirci-Elmas 2018,G,S18,2,41.02383333,28.0705,46,-,U,125,79,4749,13,b,C13b,C. laevigata - B. spathulata
+SoM_6,Kirci-Elmas 2018,G,S25,2,40.951,27.9705,67,-,U,125,92,4516,5,,C5,Asterigerinata mamilla
+SoM_7,Kirci-Elmas 2013,G,1,2,40.96666667,28.99666667,28,-,U,63,36,-,11,,C11,B. aculeata - B. vadescens
+SoM_7,Kirci-Elmas 2013,G,2,2,40.94,28.94333333,65,-,U,63,45,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,3,2,40.97066667,28.75733333,24,-,U,63,36,-,2,,C2,Pollution
+SoM_7,Kirci-Elmas 2013,G,4,2,40.93333333,28.6,50,-,U,63,56,-,11,,C11,B. aculeata - B. vadescens
+SoM_7,Kirci-Elmas 2013,G,5,2,41.01666667,28.215,57,-,U,63,47,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,6,2,40.94166667,27.52966667,47,-,U,63,74,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,7,2,40.68,27.41,155,-,U,63,45,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,8,2,40.02183333,26.21833333,62,-,U,63,80,-,4,,C4,Elphidium - A. mamilla
+SoM_7,Kirci-Elmas 2013,G,9,2,40.10333333,26.33333333,67,-,U,63,84,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,10,2,40.40816667,26.70833333,74,-,U,63,84,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,11a,2,40.377,27.33866667,15,-,U,63,16,-,2,,C2,Pollution
+SoM_7,Kirci-Elmas 2013,G,11b,2,40.4,27.35716667,25,-,U,63,55,-,15,,C15,Porosononion - C. laevigata
+SoM_7,Kirci-Elmas 2013,G,11c,2,40.42316667,27.37566667,38,-,U,63,47,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,12b,2,40.36416667,27.63416667,36,-,U,63,47,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,12c,2,40.39133333,27.63416667,40,-,U,63,50,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,13,2,40.70166667,28.34166667,150,-,U,63,56,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,14a,2,40.4035,28.52,11,-,U,63,3,-,2,,C2,Pollution
+SoM_7,Kirci-Elmas 2013,G,14b,2,40.425,28.53833333,28,-,U,63,37,-,11,,C11,B. aculeata - B. vadescens
+SoM_7,Kirci-Elmas 2013,G,14c,2,40.44766667,28.55983333,54,-,U,63,69,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,15,2,40.41666667,28.88333333,92,-,U,63,38,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,16,2,40.73333333,29.35,320,-,U,63,85,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_7,Kirci-Elmas 2013,G,17,2,40.75966667,29.52083333,34,-,U,63,26,-,2,,C2,Pollution
+SoM_7,Kirci-Elmas 2013,G,18,2,40.84333333,29.22666667,43,-,U,63,71,-,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,36,0.5,40.91333,27.52667,62,-,U,63,30,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,39,0.5,40.96667,27.55361,22,-,U,63,20,300,3,,C3,Ammonia - Elphidium 2
+SoM_8,Avsar 2010,G,40,0.5,40.95833,27.625,46,-,U,63,21,300,13,a,C13a,C. laevigata - A. compacta
+SoM_8,Avsar 2010,G,41,0.5,40.96,27.6775,50,-,U,63,25,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,43,0.5,40.95,27.73667,76,-,U,63,28,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,47,0.5,40.955,28.07028,111,-,U,63,33,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,49,0.5,40.985,28.01,45,-,U,63,32,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,52,0.5,41.03167,28.04,16,-,U,63,14,300,3,,C3,Ammonia - Elphidium 2
+SoM_8,Avsar 2010,G,53,0.5,41.04667,28.07667,15,-,U,63,19,300,3,,C3,Ammonia - Elphidium 2
+SoM_8,Avsar 2010,G,54,0.5,41.04833,28.125,20,-,U,63,40,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,58,0.5,41.03667,28.16944,50,-,U,63,25,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,59,0.5,41.01111,28.17667,55,-,U,63,29,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,63,0.5,41.04167,28.35333,30,-,U,63,35,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,71,0.5,40.96833,28.57417,28,-,U,63,33,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,77,0.5,40.96583,28.86917,13,-,U,63,22,300,3,,C3,Ammonia - Elphidium 2
+SoM_8,Avsar 2010,G,78,0.5,40.95,28.86917,25,-,U,63,33,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,81,0.5,40.98833,28.93917,24,-,U,63,36,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,85,0.5,40.92889,28.62,64,-,U,63,29,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,89,0.5,40.965,28.7625,37,-,U,63,32,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,90,0.5,40.93667,28.82083,70,-,U,63,33,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,92,0.5,40.96167,28.89417,24,-,U,63,32,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,94,0.5,40.91833,28.91667,72,-,U,63,38,300,13,b,C13b,C. laevigata - B. spathulata
+SoM_8,Avsar 2010,G,96,0.5,40.97,28.93917,27,-,U,63,31,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,97,0.5,40.95,28.85833,27,-,U,63,45,300,5,,C5,Asterigerinata mamilla
+SoM_8,Avsar 2010,G,98,0.5,40.97,28.90333,17,-,U,63,25,298,3,,C3,Ammonia - Elphidium 2
+SoM_8,Avsar 2010,G,99,0.5,40.98833,28.93333,24,-,U,63,35,299,5,,C5,Asterigerinata mamilla
+SoM_9,Kirci-Elmas et al. 2008,C ,DM18,2,40.83075,27.8771,895,-,U,125,31,194,9,,C9,Bulimina costata
+SoM_9,Kirci-Elmas et al. 2008,C ,KL40,3,40.78533333,27.77183333,703,1.11,U,125,18,332,9,,C9,Bulimina costata
+SoM_11,Kaminski et al. 2002,C,MAR98-9,0,40.92266667,28.94666667,64,-,U,125,38,248,10,,C10,Bolivina spp.
+SoM_11,Kaminski et al. 2002,C,MAR98-7,0,40.84966667,29.01633333,95,-,U,125,41,550,12,a,C12a,B. spathulata - B. costata
+SoM_11,Kaminski et al. 2002,C,MAR97-11,0,40.65333333,28.37783333,111,-,U,125,32,560,12,a,C12a,B. spathulata - B. costata
+SoM_12,Avsar et al. 2006,G,147,0.5,40.48166667,27.66666667,28,-,U,63,24,123,3,,C3,Ammonia - Elphidium 2
+SoM_12,Avsar et al. 2006,G,148,0.5,40.38333333,27.58333333,42,-,U,63,16,35,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,150,0.5,40.495,27.66805556,35,-,U,63,22,46,3,,C3,Ammonia - Elphidium 2
+SoM_12,Avsar et al. 2006,G,152,0.5,40.41555556,27.73833333,37,-,U,63,21,56,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,154,0.5,40.41666667,27.65,46,-,U,63,22,79,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,155,0.5,40.36833333,27.6575,39,-,U,63,16,56,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,156,0.5,40.37166667,27.59333333,39,-,U,63,14,51,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,157,0.5,40.40666667,27.59,44,-,U,63,26,130,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,158,0.5,40.43333333,27.58833333,44,-,U,63,22,117,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,160,0.5,40.43,27.52888889,49,-,U,63,20,65,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,162,0.5,40.41333333,27.45,45,-,U,63,33,282,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,163,0.5,40.44333333,27.47666667,52,-,U,63,25,150,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,165,0.5,40.46333333,27.42833333,57,-,U,63,27,118,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,166,0.5,40.43833333,27.39,46,-,U,63,47,716,13,a,C13a,C. laevigata - A. compacta
+SoM_12,Avsar et al. 2006,G,167,0.5,40.41166667,27.41333333,42,-,U,63,15,40,13,a,C13a,C. laevigata - A. compacta
+SoM_13,Alavi 1988,C,M1,2,40.80388889,28.85833333,1200,1.82,U,63,31,151,6,,C6,Chilostomella
+SoM_13,Alavi 1988,C,M4,2,40.83,28.93,1200,1.83,U,63,31,174,6,,C6,Chilostomella
+SoM_TS,This study,C,1_19,4,40.73087,29.44111,65,1.35,U,63,67,1165,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,2,2,40.74023,29.3875,112,1.39,U,63,64,380,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,3_19,4,40.73889,29.32482,240,1.56,U,63,43,254,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,4,4,40.74921,29.26016,435,1.4,U,63,52,267,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,5,4,40.58304,28.85404,100,1.16,U,63,84,604,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,6,4,40.59356,28.83508,192,1.69,U,63,65,500,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,7-2,4,40.60526,28.83676,290,1.66,U,63,68,608,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,8,4,40.69099,28.84714,414,1.49,U,63,52,265,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,1_21,1,40.73279,29.43593,67,-,U,63,42,405,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,3_21,1,40.74153,29.32812,195,-,U,63,41,282,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,45C-1,1,40.785,28.88667,1214,-,U,63,33,136,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,45C-2,1,40.785,28.88667,1214,-,U,63,45,505,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,Izmit-deep,1,40.72777,29.69232,206,-,U,63,27,96,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,K40K46,1,40.66507,28.76701,318.5,-,U,63,35,328,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,K42K20,2,40.70316,28.33465,160,-,U,63,54,944,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,K49.5L04,1,40.82767,29.06667,100,-,U,63,49,931,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,K51.2K09,1,40.85972,28.14906,1185,-,U,63,42,290,12,b,C12b,Paracassidulina minuta
+SoM_TS,This study,C,MM50,1,40.44623,28.51746,53.5,-,U,63,55,421,12,b,C12b,Paracassidulina minuta
