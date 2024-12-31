@@ -34,6 +34,39 @@ def show_references():
         # If there is an error reading the CSV, show a message
         st.error(f"Error loading references: {e}")
 
+    
+    # Header for supplementary material
+    st.markdown(
+        "<h2 style='font-size: 18px;'>Supplementary Material</h2>",
+        unsafe_allow_html=True
+    )
+    # Filepath to the Excel file
+    file_path = "./data/taxa.xlsx"
+
+    # Offer the file as a downloadable button
+    with open(file_path, "rb") as file:
+        st.download_button(
+            label="📥 Download Taxa Excel File",
+            data=file,
+            file_name="taxa.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+
+# Add an explanation
+    st.markdown(
+        """
+        <p style='font-size: 14px;'>
+        Here you can download <b>Synonyms and presence table</b> for taxa identified in the analyzed studies. 
+        </p>
+        <ul style='font-size: 14px;'>
+            <li><b>Y</b> stands for presence of a taxon under the name given in "Taxon name".</li>
+            <li>Other names are explained in the same row.</li>
+            <li>Codes are the same as in References.</li>
+        </ul>
+        """,
+        unsafe_allow_html=True
+        )
+
 #empty spaces
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.write("------")

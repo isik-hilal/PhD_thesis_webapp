@@ -1,4 +1,4 @@
-Code,Reference,Type,Station,Depth_in_core,Latitude,Longitude,Water_depth,TOC,L/D/U,Size_fraction,S,N,Cluster,subcluster,Cluster_real,Details
+Code,Reference,Type,Station,Depth_in_core,Latitude,Longitude,Water_depth,TOC,L/D/U,Size_fraction,S,N,Cluster,subcluster,Cluster/Subcluster,Details
 SoM_1,Fontanier et al. 2018,C,MRS-DV01-PC-04,0.5,40.86166667,28.58333333,326,2.35,L,63,11,375,1,,C1,B. vadescense Live
 SoM_1,Fontanier et al. 2018,C,MRS-DV05-PC-06,0.5,40.71666667,29.11166667,1237,2.86,L,63,3,29,1,,C1,B. vadescense Live
 SoM_2,Phipps et al. 2010,G,1,0.5,40.36295577,27.38841279,15,1.09,D,125,35,436,2,,C2,Pollution

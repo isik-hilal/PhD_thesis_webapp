@@ -59,7 +59,7 @@ def create_first_map():
         },
         color='Reference',
         color_discrete_sequence=colors,  # Use the custom color palette
-        zoom=7,
+        zoom=5,
         height=600
     )
 
@@ -172,7 +172,7 @@ def create_second_map():
             zoom=7
         ),
         title=dict(
-            text=f"<b>{selected_reference} Fossil Sample Locations</b>",
+            text=f"<b>{selected_reference} Station Locations</b>",
             font=dict(family="Lora, Roboto, sans-serif", size=20),
             x=0.5,
             xanchor="center"
@@ -189,14 +189,23 @@ def create_second_map():
 ]
 
     # Exclude unwanted columns explicitly
-    unwanted_columns = {"Code","Reference", "Type", "Lat", "Long", "L/D/U", "Size_fraction", "S", "N", "Unnamed: 454"}
+    unwanted_columns = {"Code","Reference", "Type", "Lat", "Long", "L/D/U", "Size_fraction", "S", "N", "Unnamed: 450"}
     filtered_columns = [col for col in non_null_columns if col not in unwanted_columns]
 
 
     final_data=filtered_data[filtered_columns]
 
     # Display the filtered table beneath the map
+        
     st.markdown(f"### Filtered Data for {selected_reference}")
+    st.markdown(
+    """
+    <p style="font-size:10px; font-style:italic; color:gray;">
+    Use the interactive button on the right corner to download the table as a csv file. See supplementary material in References Section for full names of taxa.
+    </p>
+    """,
+    unsafe_allow_html=True)
+
     st.dataframe(
     final_data.style
     .set_properties(**{

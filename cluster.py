@@ -8,8 +8,8 @@ from analysis import add_footer
 def load_data():
     data = pd.read_csv("data/cluster.csv")  # Loading CSV data
     data.columns = data.columns.str.strip() 
-    data = data.sort_values(by='Cluster', ascending=True)
-    data['Cluster'] = data['Cluster'].astype('object') # Strip any leading/trailing spaces
+    data = data.sort_values(by='Cluster/Subcluster', ascending=True)
+    data['Cluster/Subcluster'] = data['Cluster/Subcluster'].astype('object') # Strip any leading/trailing spaces
     return data
 
 # Function to show the map
@@ -21,14 +21,29 @@ def show_clustermap():
     st.image("images/cluster.tif", caption="Cluster Image", use_container_width=True)
 
     st.markdown("""
-                <p style="font-size:14px;">
-                The surface samples (144 stations) belonging to the 11 analyzed studies were grouped into 15 clusters with respect to their benthic foraminiferal assemblage (384 taxa).
+                <p style="text-align:justify; font-size:14px;">
+                Dendrogram produced from the cluster analysis (hierarchical clustering, 
+                UPGMA, Bray-Curtis, PAST, Hammer et al., 2001) of surface data set (384 taxa (<em>See Supplementary Material in References Section</em>), 144 stations). 
+                A: Station numbers (shortened as "study code (see References)_station number", 
+                without using SoM prefix, and MAR prefix in SoM-11, MRS06: MRS-DV05-PC-06, 
+                MRS04: MRS-DV01-PC-04, TS_IzDeep: SoM_TS_Izmit-deep, 
+                other stations of this study shortened to first few characters only) in clusters,
+                colored according to location (see legend A); 
+                B: water depths the stations belong to (see legend B); 
+                C: dendrogram cut from about 32% similarity resulting in 15 separate clusters of stations,
+                clusters and subclusters enumerated (as C#) starting from the root of the tree; 
+                station numbers colored according to studied size fraction (see legend C).
+                <br><br>
+                Locations of the stations belonging to 18 clusters/subclusters (15 separate clusters and 
+                2 and 3 subclusters of Cluster 12 and 13 respectively) can be visualized in the map below.
+                <br><br>
+                "Details" in the info-box stand for distinguishing feature of the cluster/sublcluster in terms of dominant assemblage, studied assemblage or pollution.
 </p>""",
     unsafe_allow_html=True)
 
 
     # Check if 'Cluster' column exists
-    if 'Cluster' not in data.columns:
+    if 'Cluster/Subcluster' not in data.columns:
         st.error("The 'Cluster' column is missing in the data.")
         return
 
@@ -47,14 +62,14 @@ def show_clustermap():
     )
     
     # Get unique cluster values from the 'Cluster' column
-    unique_clusters = data['Cluster'].dropna().unique()
+    unique_clusters = data['Cluster/Subcluster'].dropna().unique()
     
     # User can select multiple clusters
     selected_clusters = st.multiselect("Choose Clusters to display:", unique_clusters, default=unique_clusters[0]) #default=unique_clusters)
 
     if selected_clusters:
         # Filter data based on selected clusters
-        filtered_data = data[data['Cluster'].isin(selected_clusters)]
+        filtered_data = data[data['Cluster/Subcluster'].isin(selected_clusters)]
 
         # Ensure that the latitude and longitude columns exist in the data
         if 'Latitude' not in filtered_data.columns or 'Longitude' not in filtered_data.columns:
@@ -71,22 +86,25 @@ def show_clustermap():
 
         # Create a list of colors (15 colors for 15 clusters)
         colors = [
-            "#1f77b4",  # Blue
-            "#8c564b",  # Brown
-            "#d49a6a",  # Light Brown
-            "#b5634f",  # Burnt Orange
-            "#bcbd22",  # Yellow-green
-            "#e377c2",  # Pink
-            "#7f7f7f",  # Gray
-            "#8e44ad",  # Purple
-            "#f1c40f",  # Gold
-            "#ba55d3",  # Lavender
-            "#ff7f0e",  # Bright Orange
-            "#2ca02c",  # Green
-            "#ffbb78",  # Peach
-            "#17becf",  # Cyan
-            "#9b59b6",  # Amethyst
-        ]
+    "#1f77b4",  # Blue
+    "#8c564b",  # Brown
+    "#d49a6a",  # Light Brown
+    "#b5634f",  # Burnt Orange
+    "#bcbd22",  # Yellow-green
+    "#e377c2",  # Pink
+    "#7f7f7f",  # Gray
+    "#8e44ad",  # Purple
+    "#f1c40f",  # Gold
+    "#ba55d3",  # Lavender
+    "#ff7f0e",  # Bright Orange
+    "#2ca02c",  # Green
+    "#ffbb78",  # Peach
+    "#17becf",  # Cyan
+    "#9b59b6",  # Amethyst
+    "#ff6347",  # Tomato Red
+    "#4682b4",  # Steel Blue
+    "#32cd32",  # Lime Green
+]
 
         # Ensure that clusters have unique colors by using color_discrete_map
         color_map = {cluster: colors[i] for i, cluster in enumerate(unique_clusters)}
@@ -96,13 +114,12 @@ def show_clustermap():
             filtered_data,
             lat='Latitude',  # Latitude column
             lon='Longitude',  # Longitude column
-            color='Cluster',  # Cluster column for different colors
+            color='Cluster/Subcluster',  # Cluster column for different colors
             hover_name='Reference',  # Hover name (can show more info in hover)
             hover_data={
-                'Reference': True,
+                'Reference': False,
                 'Station': True,
-                'Depth_in_core': True,
-                'Cluster_real': True,
+                'Details':True,
                 'Latitude': False,
                 'Longitude': False
             },

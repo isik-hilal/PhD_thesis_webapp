@@ -18,7 +18,7 @@ def show_analysis():
 
     st.markdown(
         """
-        <h2 style=" font-size: 25px;">1-Relative Abundance of Taxa for Each Station</h2>
+        <h2 style=" font-size: 25px;">1-Relative Abundance of Taxa for Each Station/Sample</h2>
         """ , unsafe_allow_html=True
     )
     
@@ -56,7 +56,7 @@ def show_analysis():
         """ , unsafe_allow_html=True
     )
             unique_depths = station_data['Depth_in_core'].dropna().unique()
-            selected_depth = st.selectbox("Choose a Depth in Core:", unique_depths)
+            selected_depth = st.selectbox("Choose a Depth in Core (Sample):", unique_depths)
 
             if selected_depth:
                 # Filter data for the selected depth
@@ -100,19 +100,19 @@ def show_analysis():
                 # Bar graph of fossils
                 st.markdown(
         """
-        <h3 style=" font-size: 22px;">Fossil Distribution</h3>
+        <h3 style=" font-size: 22px;">Benthic Foraminifera Assemblage</h3>
         """ , unsafe_allow_html=True
     )
     
-                st.markdown(f"<p style='font-size: 14px;'>The following bar graph shows the <strong>Relative Abundance</strong> of fossils found at Station: {selected_station}, Depth: {selected_depth}.</p>", unsafe_allow_html=True)
+                st.markdown(f"<p style='font-size: 14px;'>The following bar graph shows the <strong>Relative Abundances</strong> of taxa (taxa with abundances <2% are summed in 'Others') found at Station: {selected_station}, Depth in core: {selected_depth} cm.</p>", unsafe_allow_html=True)
 
                 fig = px.bar(
                     fossil_data,
                     y='Fossil',
                     x='Relative Abundance',
                     orientation='h',  # Horizontal bar chart
-                    title=f"Relative Abundance of Fossils at Station: {selected_station}, Depth: {selected_depth}",
-                    labels={'Relative Abundance': 'Relative Abundance (%)', 'Fossil': 'Fossil Type'},
+                    title=f"Relative Abundances of Taxa at Station: {selected_station}, Depth in core: {selected_depth} cm",
+                    labels={'Relative Abundance': 'Relative Abundance (%)', 'Fossil': 'Taxa'},
                     color='Relative Abundance',
                     color_continuous_scale='Viridis',
                     height=700
@@ -131,7 +131,7 @@ def show_depth_analysis():
     # Add the title and description for the analysis section
     st.markdown(
         """
-        <h2 style=" font-size: 25px;">2-Relative Abundance Changing with Depth</h2>
+        <h2 style=" font-size: 25px;">2-Relative Abundances Changing with Depth</h2>
         """ , unsafe_allow_html=True
     )
 
@@ -181,13 +181,8 @@ def show_depth_analysis():
             ]
 
             # Prepare line graphs for each fossil
-            st.markdown("""
-        <h3 style=" font-size: 22px;">Step 3</h3>
-        """ , unsafe_allow_html=True
-    )
-
             st.markdown(""" <div style="text-align: justify; font-size: 14px;">
-        The following line graphs show the <strong>Relative Abundance</strong> of each fossil changing with depth in the core.
+        The following line graphs show the <strong>Relative Abundances</strong> of each taxa (>2%) changing with depth in the core.
         </div>""", unsafe_allow_html=True
     )
 
