@@ -59,7 +59,7 @@ The project is modular, with different sections implemented in separate Python f
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-repo-name/benthic-foraminifera-app.git
+   git clone https://github.com/isik-hilal/PhD_thesis_webapp
    ```
 
 2. **Install dependencies**:
