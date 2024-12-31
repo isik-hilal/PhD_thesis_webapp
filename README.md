@@ -94,7 +94,7 @@ The project is modular, with different sections implemented in separate Python f
 
 ---
 
-## 👩‍🎓 **Authors**
+## 👩‍🎓 👩🏽‍🎓 **Authors**
 
 **Gamze TANIK**  
 PhD Candidate, Middle East Technical University (METU)  
