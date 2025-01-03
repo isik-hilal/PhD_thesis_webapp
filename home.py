@@ -46,71 +46,80 @@ AMBI.
         </div>""", unsafe_allow_html=True
     )
 
-     # About the project
+     # conclusion
     st.markdown(
         """ 
         <br><br>
         <h2 style="text-align: center; font-size: 20px;">Conclusions</h2>
         <div style="text-align: justify; font-size: 14px;">
+        <p> 
         Benthic foraminifera (BF) is one of the major elements of meiobenthos, and due to their high
-abundance, diversity and small size, both in recent sediments and as fossils in older strata, are
-used for time keeping and as environmental proxies. To assign predictive power to BF
-assemblages or individual BF taxa, their study in various different settings is necessary. The Sea
-of Marmara (SoM) provides a special setting for such studies of BF due to its permanently
-stratified water column and suboxic deep basins, limited circulation, high antropogenic stress
-resulting from dense industrial and residential settlements on its coasts, and its position and
-importance as a link between the Black Sea and the Mediterranean.
-
-For this purpose, BF of the SoM were studied from 18 short sediment cores from 15 stations (82
-samples in total), mainly from the eastern side of the SoM. Stations span a wide geographic area
-and water depths, including the Izmit Bay, shelf around Prince Islands, Çınarcık Basin, Imralı
-Basin, Southern shelf, Southern slope and Central Basin, from 53.5 m to 1214 m water depth.
-
-172 BF taxa were identified, and a comprehensive systematic taxonomy was constructed. Taxa
-was quantified from the samples, and relative abundances of taxa were used for their relationship
-with environmental variables such as water depth, dissolved oxygen, and measured
-concentrations of nitrite, nitrate, ammonium, phosphate in the bottom, interface and pore waters
-of the stations. Total absolute abundances of benthic and planktonic foraminifera (PF) and
-distributions of taxa were determined and differences and similarities of stations from the 18
-core-top samples were documented.
-
-Along selected 15 sediment cores the total absolute abundances of benthic and planktonic
-foraminifera (PF), relative abundances of taxa, the ratio of PF (P%) and sand content were
-analyized to distinguish changes in the vertical dimension. Most of the studied cores showed no
-significant changes, however in several of them shifts in foraminiferal assemblages were detected. The shifts in the abundances of <em>Bulimina inflata</em>, <em>Melonis pompilioides</em> and
-<em>Sigmoilopsis</em> sp.1 were interpreted in terms of change in quality and quantity of food reaching
-the sea floor especially in the deep basins (Central and Çınarcık basins). The shift in the relative
-abundance of <em>V. fragilis</em>, along with change in P% and total absolute abundance of benthic
-foraminifera, evaluated with the radiocarbon dating of the core, was linked with the
-establishment of sulfidic conditions in the Karamürsel Basin, after the 1999 earthquake.
-
-The produced benthic foraminifera dataset was compared to the previous quantitative works, and
-the data from 10 studies were incorporated to effectively and comprehensively evaluate the
-distribution of taxa in the SoM. Cluster analysis was utilized to asses the differences and
-similarities of stations, showing that different assemblages prevail in different bathymetric zones
-and near stream mouths. Adjacent to stream mouths the assemblage is the poorest in terms of
-diversity; the shallowest shelf is dominated by <em>Ammonia</em> and <em>Elphidium genera</em>, below, about 40
-m to 150 m the assemblage is dominated by <em>Cassidulina laevigata</em>, and below that the
-dominance of <em>Bolivina spathulata</em>, <em>Bolivina vadescens</em> and <em>Paracassidulina minuta</em> was
-distinguished. Combining of the data from the literature showed the need of establishment of a
-solid taxonomic framework for the benthic foraminifera of the SoM and encouragement of its
-wide usage.
-
-The data from the studied core-top samples were used in application of four quantitative
-foraminiferal biotic indices: %P* (as depth proxy), morphotype classification (as total organic
-carbon proxy), BFOI and (as bottom water oxygen proxy) and Foram-AMBI (as ecological
-quality status proxy), and assessment of their utility. Analysis of these indices show wide
-separation between the calculated and measured values for the former three, showing either the
-inadequacy of the resolution the indices provide, or alteration of the assemblages analyzed due to
-bottom processes such as dissolution, winnowing or resedimentation. Calculated Foram-AMBI
-values show all stations to be slightly polluted with an unbalanced assemblage. Foram-AMBI is
-very promising in terms of monitoring applications; however, further research is necessary until
-it can be utilized.
-
-In conclusion, this study presents a comprehensive systematic taxonomy with numerous high
-quality illustrations of mainly deep sea benthic foraminiferal taxa which can be used as a
-reference material in future studies, forms a basis for future monitoring studies by supplying quantitative foraminiferal data and calculated biotic indices from various settings in the SoM
-showing the present configuration.</div> """, unsafe_allow_html=True
+        abundance, diversity and small size, both in recent sediments and as fossils in older strata, are
+        used for time keeping and as environmental proxies. To assign predictive power to BF
+        assemblages or individual BF taxa, their study in various different settings is necessary. The Sea
+        of Marmara (SoM) provides a special setting for such studies of BF due to its permanently
+        stratified water column and suboxic deep basins, limited circulation, high antropogenic stress
+        resulting from dense industrial and residential settlements on its coasts, and its position and
+        importance as a link between the Black Sea and the Mediterranean.
+        </p>
+        <p>
+        For this purpose, BF of the SoM were studied from 18 short sediment cores from 15 stations (82
+        samples in total), mainly from the eastern side of the SoM. Stations span a wide geographic area
+        and water depths, including the Izmit Bay, shelf around Prince Islands, Çınarcık Basin, Imralı
+        Basin, Southern shelf, Southern slope and Central Basin, from 53.5 m to 1214 m water depth.
+        </p>
+        <p>
+        172 BF taxa were identified, and a comprehensive systematic taxonomy was constructed. Taxa
+        was quantified from the samples, and relative abundances of taxa were used for their relationship
+        with environmental variables such as water depth, dissolved oxygen, and measured
+        concentrations of nitrite, nitrate, ammonium, phosphate in the bottom, interface and pore waters
+        of the stations. Total absolute abundances of benthic and planktonic foraminifera (PF) and
+        distributions of taxa were determined and differences and similarities of stations from the 18
+        core-top samples were documented.
+        </p>
+        <p>
+        Along selected 15 sediment cores the total absolute abundances of benthic and planktonic
+        foraminifera (PF), relative abundances of taxa, the ratio of PF (P%) and sand content were
+        analyized to distinguish changes in the vertical dimension. Most of the studied cores showed no
+        significant changes, however in several of them shifts in foraminiferal assemblages were detected. The shifts in the abundances of <em>Bulimina inflata</em>, <em>Melonis pompilioides</em> and
+        <em>Sigmoilopsis</em> sp.1 were interpreted in terms of change in quality and quantity of food reaching
+        the sea floor especially in the deep basins (Central and Çınarcık basins). The shift in the relative
+        abundance of <em>V. fragilis</em>, along with change in P% and total absolute abundance of benthic
+        foraminifera, evaluated with the radiocarbon dating of the core, was linked with the
+        establishment of sulfidic conditions in the Karamürsel Basin, after the 1999 earthquake.
+        </p>
+        <p>
+        The produced benthic foraminifera dataset was compared to the previous quantitative works, and
+        the data from 10 studies were incorporated to effectively and comprehensively evaluate the
+        distribution of taxa in the SoM. Cluster analysis was utilized to asses the differences and
+        similarities of stations, showing that different assemblages prevail in different bathymetric zones
+        and near stream mouths. Adjacent to stream mouths the assemblage is the poorest in terms of
+        diversity; the shallowest shelf is dominated by <em>Ammonia</em> and <em>Elphidium genera</em>, below, about 40
+        m to 150 m the assemblage is dominated by <em>Cassidulina laevigata</em>, and below that the
+        dominance of <em>Bolivina spathulata</em>, <em>Bolivina vadescens</em> and <em>Paracassidulina minuta</em> was
+        distinguished. Combining of the data from the literature showed the need of establishment of a
+        solid taxonomic framework for the benthic foraminifera of the SoM and encouragement of its
+        wide usage.
+        </p>
+        <p>
+        The data from the studied core-top samples were used in application of four quantitative
+        foraminiferal biotic indices: %P* (as depth proxy), morphotype classification (as total organic
+        carbon proxy), BFOI and (as bottom water oxygen proxy) and Foram-AMBI (as ecological
+        quality status proxy), and assessment of their utility. Analysis of these indices show wide
+        separation between the calculated and measured values for the former three, showing either the
+        inadequacy of the resolution the indices provide, or alteration of the assemblages analyzed due to
+        bottom processes such as dissolution, winnowing or resedimentation. Calculated Foram-AMBI
+        values show all stations to be slightly polluted with an unbalanced assemblage. Foram-AMBI is
+        very promising in terms of monitoring applications; however, further research is necessary until
+        it can be utilized.
+        </p>
+        <p>
+        In conclusion, this study presents a comprehensive systematic taxonomy with numerous high
+        quality illustrations of mainly deep sea benthic foraminiferal taxa which can be used as a
+        reference material in future studies, forms a basis for future monitoring studies by supplying quantitative foraminiferal data and calculated biotic indices from various settings in the SoM
+        showing the present configuration.
+        </p>
+        </div> """, unsafe_allow_html=True
     )
 
     # give some empty spaces in between
