@@ -18,7 +18,7 @@ def show_clustermap():
     data = load_data()
     # Title for the references section
     st.title("Similarity of Sites")
-    st.image("images/cluster.png", caption="Cluster Image", use_container_width=True)
+    st.image("images/cluster.png", caption="Cluster Image") #use_container_width=True)
 
     st.markdown("""
                 <p style="text-align:justify; font-size:14px;">

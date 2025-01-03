@@ -21,24 +21,26 @@ def show_home():
         """
         <h2 style="text-align: center; font-size: 20px;">Abstract</h2>
         <div style="text-align: justify; font-size: 14px;">
+        <p>
         Sea of Marmara (SoM), connecting the Black Sea and Mediterranean, has a stratified water
-column with a strong pycnocline at ~25-40 m depth with limited mixing. As a result, the top
-layer is oxygenated, but in depth the dissolved oxygen values drop drastically and produce
-suboxic or anoxic conditions in bottom waters. This layered structure of the water column
-directly translates into the benthic foraminifera (BF) communities with <em>Ammonia</em> and <em>Elphidium</em>
-dominated shallow assemblages (&lt;40 m), <em>Cassidulina laevigata</em> dominated deeper assemblages
-(40-150 m) and <em>Bolivina spathulata</em>, <em>Bolivina vadescens</em> and <em>Paracassidulina minuta</em> dominated
-deepest assemblages. This study quantitatively documented the BF assemblages from 18 stations
-(short sediment cores) from the SoM, presenting a comprehensive systematic taxonomy and high
-quality illustrations of deep sea benthic foraminifera. With integration of the previously
-published quantitative BF data, this study generated the geographic distributions of BF
-assemblages and the relationship of BF communities with environmental variables. The changes
-in BF assemblages in the vertical dimension were investigated by the study of 15 sediment cores.
-Depositional history of the core from the Karamürsel Basin was documented in this way, and the establishment of sulfidic bottom water in the basin was linked to the 1999 earthquake with the
-abundance of <em>Virgulinella fragilis</em>. The quantitative data set was applied to assess the utility and
-applicability of four quantitative foraminiferal biotic indices: %P*, morphotype classification,
-BFOI and Foram-AMBI. In conclusion, this study forms a basis for future monitoring and
-taxonomic studies by documenting the present configuration in the SoM.
+        column with a strong pycnocline at ~25-40 m depth with limited mixing. As a result, the top
+        layer is oxygenated, but in depth the dissolved oxygen values drop drastically and produce
+        suboxic or anoxic conditions in bottom waters. This layered structure of the water column
+        directly translates into the benthic foraminifera (BF) communities with <em>Ammonia</em> and <em>Elphidium</em>
+        dominated shallow assemblages (&lt;40 m), <em>Cassidulina laevigata</em> dominated deeper assemblages
+        (40-150 m) and <em>Bolivina spathulata</em>, <em>Bolivina vadescens</em> and <em>Paracassidulina minuta</em> dominated
+        deepest assemblages. This study quantitatively documented the BF assemblages from 18 stations
+        (short sediment cores) from the SoM, presenting a comprehensive systematic taxonomy and high
+        quality illustrations of deep sea benthic foraminifera. With integration of the previously
+        published quantitative BF data, this study generated the geographic distributions of BF
+        assemblages and the relationship of BF communities with environmental variables. The changes
+        in BF assemblages in the vertical dimension were investigated by the study of 15 sediment cores.
+        Depositional history of the core from the Karamürsel Basin was documented in this way, and the establishment of sulfidic bottom water in the basin was linked to the 1999 earthquake with the
+        abundance of <em>Virgulinella fragilis</em>. The quantitative data set was applied to assess the utility and
+        applicability of four quantitative foraminiferal biotic indices: %P*, morphotype classification,
+        BFOI and Foram-AMBI. In conclusion, this study forms a basis for future monitoring and
+        taxonomic studies by documenting the present configuration in the SoM.
+        </p>
 
 <br><br>
 <strong>Keywords:</strong> Benthic foraminifera, Sea of Marmara, quantitative analysis, biotic indices, Foram-
