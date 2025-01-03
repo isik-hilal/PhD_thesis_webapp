@@ -149,6 +149,7 @@ def create_second_map():
         hover_name='Reference',
         hover_data={
             'Reference': False,
+            'Station':True,
             'Type': True,
             'Depth_in_core': True,
             'Water_depth': True,

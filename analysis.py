@@ -19,14 +19,14 @@ def show_analysis():
     st.markdown(
         """
         <h2 style=" font-size: 25px;">1-Relative Abundance of Taxa for Each Station/Sample</h2>
-        """ , unsafe_allow_html=True
+        """, unsafe_allow_html=True
     )
     
     # Dropdown for selecting Reference
     st.markdown(
         """
         <h3 style=" font-size: 22px;">Step 1</h3>
-        """ , unsafe_allow_html=True
+        """, unsafe_allow_html=True
     )
     unique_references = data['Reference'].dropna().unique()
     selected_reference = st.selectbox("Choose a Reference:", unique_references)
@@ -35,12 +35,39 @@ def show_analysis():
         # Filter data for the selected reference
         filtered_reference_data = data[data['Reference'] == selected_reference]
 
+        # Display map of stations
+        st.markdown(
+            """
+            <h3 style=" font-size: 22px;">Station Map</h3>
+            <p style="font-size: 14px;">The map below shows the stations for the selected reference. Use this to decide which station to select in Step 2.</p>
+            """, unsafe_allow_html=True
+        )
+
+        # Ensure Latitude and Longitude columns exist
+        if 'Lat' in filtered_reference_data.columns and 'Long' in filtered_reference_data.columns:
+            # Generate map
+            fig_map = px.scatter_mapbox(
+                filtered_reference_data,
+                lat='Lat',
+                lon='Long',
+                color='Station',
+                hover_name='Station',
+                hover_data={'Lat': False, 'Long': False},
+                mapbox_style="open-street-map",
+                zoom=8,  # Adjust zoom level for better visualization
+                height=400
+            )
+            fig_map.update_layout(
+                margin={"r": 0, "t": 0, "l": 0, "b": 0},  # Remove margins for a clean map
+            )
+            st.plotly_chart(fig_map)
+
         # Dropdown for selecting Station
         st.markdown(
-        """
-        <h3 style=" font-size: 22px;">Step 2</h3>
-        """ , unsafe_allow_html=True
-    )
+            """
+            <h3 style=" font-size: 22px;">Step 2</h3>
+            """, unsafe_allow_html=True
+        )
         unique_stations = filtered_reference_data['Station'].dropna().unique()
         selected_station = st.selectbox("Choose a Station:", unique_stations)
 
@@ -48,13 +75,12 @@ def show_analysis():
             # Filter data for the selected station
             station_data = filtered_reference_data[filtered_reference_data['Station'] == selected_station]
 
-
             # Dropdown for selecting Depth_in_core
             st.markdown(
-        """
-        <h3 style=" font-size: 22px;">Step 3</h3>
-        """ , unsafe_allow_html=True
-    )
+                """
+                <h3 style=" font-size: 22px;">Step 3</h3>
+                """, unsafe_allow_html=True
+            )
             unique_depths = station_data['Depth_in_core'].dropna().unique()
             selected_depth = st.selectbox("Choose a Depth in Core (Sample):", unique_depths)
 
@@ -99,10 +125,10 @@ def show_analysis():
 
                 # Bar graph of fossils
                 st.markdown(
-        """
-        <h3 style=" font-size: 22px;">Benthic Foraminifera Assemblage</h3>
-        """ , unsafe_allow_html=True
-    )
+                    """
+                    <h3 style=" font-size: 22px;">Benthic Foraminifera Assemblage</h3>
+                    """, unsafe_allow_html=True
+                )
     
                 st.markdown(f"<p style='font-size: 14px;'>The following bar graph shows the <strong>Relative Abundances</strong> of taxa (taxa with abundances <2% are summed in 'Others') found at Station: {selected_station}, Depth in core: {selected_depth} cm.</p>", unsafe_allow_html=True)
 
@@ -119,8 +145,9 @@ def show_analysis():
                 )
                 st.plotly_chart(fig)
     
-    #empty spaces
+    # Empty spaces
     st.write("------")
+
 
 
 
